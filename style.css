@@ -11,6 +11,8 @@ header{
 nav{
     background-color:#6699cc;
     padding:10px;
+    display:inline-block;
+    width:80%;
 }
 
 main{
@@ -25,10 +27,14 @@ footer{
     padding:15px;
 }
 
+/* Homework 2: Comment out li styling
+
 li{
     display:inline-block;
     width:200px;
 }
+
+*/
 
 h1{
     text-align:center;
@@ -47,4 +53,30 @@ a{
 
 a:hover{
     text-decoration:underline;
+}
+
+/* Chỉ ảnh bên trong nav */
+nav img{
+    width:10%;
+}
+
+/* Grid layout */
+.grid{
+    display:grid;
+    grid-template-columns:40% 40%;
+    justify-content:space-around;
+    align-items:center;
+    row-gap:20px;
+}
+
+/* Chỉ ảnh bên trong grid */
+.grid img{
+    width:100%;
+}
+
+/* Flex layout */
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
 }
